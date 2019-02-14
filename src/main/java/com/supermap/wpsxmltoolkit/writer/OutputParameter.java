@@ -1,12 +1,12 @@
-package com.supermap.WPSXMLToolkit.xml;/* (c) 2014 Open Source Geospatial Foundation - all rights reserved
+package com.supermap.wpsxmltoolkit.writer;/* (c) 2014 Open Source Geospatial Foundation - all rights reserved
  * (c) 2001 - 2013 OpenPlans
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
 
-import com.supermap.WPSXMLToolkit.ppio.ComplexPPIO;
-import com.supermap.WPSXMLToolkit.ppio.ProcessParameterIO;
-import com.supermap.WPSXMLToolkit.process.GlobalProcessors;
+import com.supermap.wpsxmltoolkit.ppio.ComplexPPIO;
+import com.supermap.wpsxmltoolkit.ppio.ProcessParameterIO;
+import com.supermap.wpsxmltoolkit.process.GlobalProcessors;
 import org.geotools.data.Parameter;
 import org.geotools.process.ProcessFactory;
 import org.opengis.feature.type.Name;

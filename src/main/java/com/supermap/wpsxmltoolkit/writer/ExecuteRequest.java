@@ -1,14 +1,10 @@
-package com.supermap.WPSXMLToolkit.xml;
+package com.supermap.wpsxmltoolkit.writer;
 
 /* (c) 2014 Open Source Geospatial Foundation - all rights reserved
  * (c) 2001 - 2013 OpenPlans
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-
-import com.supermap.WPSXMLToolkit.xml.InputParameterValues;
-import com.supermap.WPSXMLToolkit.xml.OutputParameter;
-import com.supermap.WPSXMLToolkit.xml.WPSExecuteTransformer;
 
 import java.io.Serializable;
 import java.util.ArrayList;

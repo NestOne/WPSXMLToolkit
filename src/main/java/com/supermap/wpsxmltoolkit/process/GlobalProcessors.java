@@ -3,7 +3,7 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package com.supermap.WPSXMLToolkit.process;
+package com.supermap.wpsxmltoolkit.process;
 
 import org.geotools.process.Process;
 import org.geotools.process.ProcessFactory;

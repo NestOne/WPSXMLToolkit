@@ -1,6 +1,6 @@
-package com.supermap.WPSXMLToolkit;
+package com.supermap.wpsxmltoolkit;
 
-import com.supermap.WPSXMLToolkit.process.GlobalProcessors;
+import com.supermap.wpsxmltoolkit.process.GlobalProcessors;
 import org.geotools.process.ProcessFactory;
 import org.opengis.feature.type.Name;
 

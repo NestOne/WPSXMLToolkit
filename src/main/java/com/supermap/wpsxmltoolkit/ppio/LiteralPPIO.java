@@ -3,7 +3,7 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package com.supermap.WPSXMLToolkit.ppio;
+package com.supermap.wpsxmltoolkit.ppio;
 
 import org.geotools.util.Converters;
 

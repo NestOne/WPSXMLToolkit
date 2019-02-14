@@ -4,13 +4,12 @@
  * application directory.
  */
 
-package com.supermap.WPSXMLToolkit.read;
+package com.supermap.wpsxmltoolkit.read;
 
-import com.supermap.WPSXMLToolkit.WPSException;
+import com.supermap.wpsxmltoolkit.WPSException;
 
 import org.geotools.util.Version;
 import org.geotools.util.logging.Logging;
-import org.geotools.wps.WPSConfiguration;
 import org.geotools.xml.Parser;
 import org.geotools.xml.PreventLocalEntityResolver;
 

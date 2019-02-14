@@ -1,4 +1,4 @@
-package com.supermap.WPSXMLToolkit;
+package com.supermap.wpsxmltoolkit;
 
 /* (c) 2014 Open Source Geospatial Foundation - all rights reserved
  * (c) 2001 - 2013 OpenPlans

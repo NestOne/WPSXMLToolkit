@@ -3,12 +3,12 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package com.supermap.WPSXMLToolkit.ppio;
+package com.supermap.wpsxmltoolkit.ppio;
 
 import com.vividsolutions.jts.geom.Envelope;
 import net.opengis.ows11.BoundingBoxType;
 import net.opengis.ows11.Ows11Factory;
-import com.supermap.WPSXMLToolkit.WPSException;
+import com.supermap.wpsxmltoolkit.WPSException;
 import org.geotools.geometry.GeneralEnvelope;
 import org.geotools.geometry.jts.ReferencedEnvelope;
 import org.geotools.referencing.CRS;

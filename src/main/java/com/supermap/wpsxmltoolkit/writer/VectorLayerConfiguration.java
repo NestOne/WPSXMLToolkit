@@ -3,7 +3,7 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package com.supermap.WPSXMLToolkit.xml;
+package com.supermap.wpsxmltoolkit.writer;
 
 import java.io.Serializable;
 import java.util.List;

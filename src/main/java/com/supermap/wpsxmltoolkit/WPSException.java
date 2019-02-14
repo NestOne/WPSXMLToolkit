@@ -4,9 +4,7 @@
  * application directory.
  */
 
-package com.supermap.WPSXMLToolkit;
-
-import com.supermap.WPSXMLToolkit.ServiceException;
+package com.supermap.wpsxmltoolkit;
 
 /**
  * WPS Exception class

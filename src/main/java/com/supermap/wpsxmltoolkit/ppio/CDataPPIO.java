@@ -3,7 +3,7 @@
  * This code is licensed under the GPL 2.0 license, available at the root
  * application directory.
  */
-package com.supermap.WPSXMLToolkit.ppio;
+package com.supermap.wpsxmltoolkit.ppio;
 
 /**
  * Process parameter input / output for objects which are text based (no Base64 encoding needed)

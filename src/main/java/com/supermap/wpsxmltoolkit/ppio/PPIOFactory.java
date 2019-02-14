@@ -3,7 +3,7 @@
  * application directory.
  */
 
-package com.supermap.WPSXMLToolkit.ppio;
+package com.supermap.wpsxmltoolkit.ppio;
 
 import java.util.List;
 

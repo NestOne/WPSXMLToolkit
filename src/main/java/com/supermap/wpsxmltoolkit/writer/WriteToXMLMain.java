@@ -1,13 +1,13 @@
-package com.supermap.WPSXMLToolkit.xml;
+package com.supermap.wpsxmltoolkit.writer;
 
-import com.supermap.WPSXMLToolkit.read.WpsXmlReader;
+import com.supermap.wpsxmltoolkit.read.WpsXmlReader;
 import net.opengis.wps10.impl.ExecuteTypeImpl;
+import org.apache.commons.io.FileUtils;
 import org.geotools.feature.NameImpl;
-import org.geotools.wps.WPSConfiguration;
 
 import java.io.*;
 
-public class ExecuteToXMLMain {
+public class WriteToXMLMain {
     public static void main(String[] args) throws Exception {
 
         ExecuteRequest execRequest = new ExecuteRequest();
@@ -43,14 +43,7 @@ public class ExecuteToXMLMain {
         String output = writer.write(execRequest);
         System.out.println(output);
 
-        InputStream is = new ByteArrayInputStream( output.getBytes( "UTF-8" ) );
-        InputStreamReader reader = new InputStreamReader(is);
-
-        WpsXmlReader wpsXmlReader = new WpsXmlReader("Execute", "1.0", new WPSConfiguration());
-        Object result = wpsXmlReader.read(null, reader, null);
-        net.opengis.wps10.ExecuteType execute= (ExecuteTypeImpl)result;
-
-        System.out.print("XML read sucess, process name: ");
-        System.out.println(execute.getIdentifier().getValue());
+        String file = "D:/test.xml";
+        FileUtils.writeStringToFile(new File(file), output);
     }
 }
